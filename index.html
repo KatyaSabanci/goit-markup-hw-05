@@ -433,14 +433,37 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
+         <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="x-btn" width="8" height="8">
             <use href="./images/icons.svg#icon-close-x"></use>
           </svg>
         </button>
+        <p class="modal-title text">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-label">Name
+            <input type="text" name="name" class="modal-input" required></input>
+          </label>
+<label class="modal-label">Phone
+ <input type="text" name="Phone" class="modal-input" required></input>
+</label>
+         <label class="modal-label">Email
+<input type="text" name="email" class="modal-input"></input>
+         </label>
+         <label class="modal-label">Comment
+<input type="text" name="comment" class="modal-input" placeholder="Text input"></input>
+         </label>
+         <button class="modal-send-btn" type="submit">Send</button>
+          
+        </form>
       </div>
     </div>
+   
+        
+    
+  
     <script src="./js/modal.js"></script>
   </body>
 </html>
