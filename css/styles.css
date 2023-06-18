@@ -37,6 +37,7 @@ img {
 ul {
   margin-left: 0;
   margin: 0;
+  padding: 0;
 }
 
 p,
@@ -66,7 +67,6 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .header-menu {
   color: var(--header-color);
@@ -76,6 +76,8 @@ h6 {
 }
 .header-list {
   margin-right: auto;
+  display: flex;
+  gap: 40px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -105,9 +107,11 @@ h6 {
 }
 a:hover {
   color: #404bbf;
+  background-color: transparent;
 }
 a:focus {
   color: #404bbf;
+  background-color: transparent;
 }
 
 .active {
@@ -189,7 +193,7 @@ a:focus {
   transition: background-color var(--transition);
 }
 .button-hero:hover,
-:focus {
+.button-hero:focus {
   background-color: #404bbf;
 }
 
@@ -310,10 +314,10 @@ a:focus {
   align-items: center;
   display: flex;
   justify-content: center;
+}
 
-  .social-link {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
@@ -528,8 +532,6 @@ a:focus {
   border: 1px solid var(--portfolio-button-border);
   border-radius: 4px;
   padding: 12px 24px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   transition: color var(--transition), background-color var(--transition),
     border-color var(--transition), box-shadow var(--transition);
 }
