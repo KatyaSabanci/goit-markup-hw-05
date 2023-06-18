@@ -508,6 +508,7 @@ a:focus {
   width: 100%;
   width: 165px;
   height: 40px;
+  transition: background-color var(--transition);
 }
 
 .subscribe-icon {
@@ -699,9 +700,11 @@ a:focus {
   display: inline-block;
   outline: transparent;
   padding-left: 38px;
+  transition: border-color var(--transition);
 }
 .modal-input:focus {
   border-color: rgba(77, 90, 229, 1);
+  
 }
 
 .modal-input:focus + .modal-icon {
@@ -719,6 +722,7 @@ a:focus {
   background-color: transparent;
   margin-bottom: 16px;
   resize: none;
+  transition: border-color var(--transition);
 }
 
 .modal-input-comment:focus {
@@ -731,6 +735,7 @@ a:focus {
   stroke: rgba(46, 47, 66, 1);
   top: 50%;
   transform: translateY(-50%);
+  transition: fill var(--transition);
 }
 
 .modal-label {
@@ -772,6 +777,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: fill var(--transition); background-color var(--transition);
 }
 
 .input-checkbox:checked + .policy-class span {
