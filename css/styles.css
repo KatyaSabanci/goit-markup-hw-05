@@ -702,6 +702,10 @@ a:focus {
   margin-bottom: 8px;
 }
 
+.input-wrap-comment {
+  margin-bottom: 16px;
+}
+
 .checkbox-wrap {
   margin-bottom: 24px;
 }
@@ -780,7 +784,6 @@ a:focus {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 
