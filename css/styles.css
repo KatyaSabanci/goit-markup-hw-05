@@ -693,7 +693,6 @@ a:focus {
   pointer-events: none;
 }
 .modal-title {
-  margin-bottom: 16px;
   font-weight: 500;
   text-align: center;
   color: var(--header-color);
@@ -738,7 +737,6 @@ a:focus {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
-  margin-bottom: 16px;
   resize: none;
   transition: border-color var(--transition);
   font-size: 12px;
