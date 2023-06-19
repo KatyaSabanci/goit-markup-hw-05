@@ -455,11 +455,6 @@ a:focus {
   max-width: 208px;
   margin-right: 80px;
 }
-.footer-email-input {
-  display: flex;
-  height: 80px;
-  margin-right: 0;
-}
 
 .footer-label {
   font-size: 16px;
@@ -468,16 +463,14 @@ a:focus {
   color: #ffffff;
   margin-bottom: 16px;
   font-weight: 500;
-  padding-bottom: 24px;
 }
 .button-wrap {
   display: flex;
-  flex-direction: row;
+  max-width: 453px;
   gap: 24px;
-  width: 453px;
-  width: 100%;
-  margin-right: 0;
   padding: 0;
+  width: 100%;
+  margin-left: 0;
 }
 .footer-email {
   background-color: transparent;
@@ -490,8 +483,8 @@ a:focus {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-left: 16px;
   color: #ffffff;
+  padding: 0;
 }
 .footer-email::placeholder {
   font-size: 12px;
@@ -505,18 +498,23 @@ a:focus {
   align-items: center;
 }
 .subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  padding: 8px, 24px;
   border-radius: 4px;
   border: none;
   width: 165px;
   height: 40px;
   transition: background-color var(--transition);
   cursor: pointer;
+  padding: 0;
 }
 
 .subscribe-icon {
@@ -791,10 +789,6 @@ a:focus {
 }
 
 .icon-footer-span {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
 }
 
 .policy-class span {
@@ -803,11 +797,14 @@ a:focus {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: fill var(--transition), background-color var(--transition);
+  display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-checkbox:checked + .policy-class span {
