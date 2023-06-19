@@ -484,7 +484,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  padding: 0;
+  padding-left: 16px;
 }
 
 .footer-email::placeholder {
